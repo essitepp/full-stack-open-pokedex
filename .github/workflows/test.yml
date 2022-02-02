@@ -31,4 +31,4 @@ jobs:
           RESULT: ${{ contains(join(github.event.commits.*.message), '#skip') }}
         run: echo "$RESULT"
 
-#test
+#test2
